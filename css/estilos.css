@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://image.freepik.com/vetores-gratis/fundo-de-textura-aquarela-pastel-abstrata_10126-1199.jpg');
+  background-size: auto 100vh;
+  font-family: Garamond;
+  height: 100vh;
+}
+
+.menu {
+  background-color: White;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.site-subtitle, 
+.site-title {
+  color: black;
+  text-align: center;
+}
+
+.site-subtitle {
+ font-style: italic;
+}
