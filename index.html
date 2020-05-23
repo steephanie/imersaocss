@@ -2,20 +2,78 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Stephanie Nascimento</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Flamenco&family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b5afb84808.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+<body class="container"></body>
 	<header>
 		<nav class="menu">
 			<ul>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Portfólio</a></li>
-				<li><a href="#">Contato</a></li>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#sobre">Sobre mim</a></li>
+				<li><a href="#portfolio">Conhecimentos</a></li>
+				<li><a href="#contato">Contato</a></li>
 			</ul>
 		</nav>
-		<h1 class="site-title">Stephanie Nascimento</h1>
-		<h2 class="site-subtitle">Iniciante de Front-End Developer Jr \õ/ </h2>
-	</header>	
+		<div class="titulo" id="inicio">
+			<h1 class="site-title">Stephanie Nascimento</h1>
+			<h2 class="site-subtitle">Iniciante de Front-End Developer Jr</h2>
+		</div>
+	</header>
+	<section class="sobre" id="sobre">
+		<h2>Sobre</h2>
+			<figure class="avatar">
+				<img src="./img/IMG_5585.jpg" alt="Stephanie Nascimento">
+		  	</figure>
+		<p>
+			Oi, Meu nome é Stephanie, tenho 25 anos e sou de São Paulo. Sou formada em Bacharel de Sistema de Informação, meu hobby favorita com toda certeza e fazer trip, ajudo um amigo que tem uma agencia <a href="https://instagram.com/oficialvaidetrip?igshid=rej295co4ht7">VAI DE TRIP</a> e sempre que consigo estou programando conhecer algum lugar se não e com a agencia e com a minha namorada :) eu frequento um projeto que <a href="https://www.nike.com.br/LandingPage/cidade/sp">Nike F.C</a> disponibilizou para jogar futebol com meninas no parque Ibirapuera.
+		</p>
+
+		<p>
+			Tenho experiencia como Analista de Suporte nivel 1 e 2, porem devido a pandemia estou desempregada e atualmente estou estudando para aréa de Front-End realizando alguns cursos do Alura e acompanhando os cursos onlines da Hipsters, tenho algumas certificações de cursos presenciais como SQL Query, EXCEL I,II e III, HTML.
+		</p>
+
+		<p>
+			Esse site foi contruido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+		</p>
+
+	</section>
+
+	<section class="portfolio" id="portfolio">
+		<h2>Projetos</h2>
+		<div class="grid">
+			<figure>
+				<img class="img-portfolio" src="./img/programação1.jpg" alt="Linguagens">
+				<figcaption>Linguagens</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/fut.JPG" alt="Hobby">
+				<figcaption>Hobby</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/IMG_3802.jpg" alt="Vai de Trip">
+				<figcaption>Vai de Trip</figcaption>
+			</figure>
+		</div>	
+	</section>
+	<section class="contato" id="contato">
+		<h2>Contato</h2>
+		  <div class="grid icons">
+		  <a target="_blank" href="https://github.com/steephanie">
+			<i class="fab fa-github"></i>
+		  </a>
+		  <a target="_blank" href="https://www.linkedin.com/in/stephanie-nascimento-71ab51152/">
+			<i class="fab fa-linkedin"></i>
+		  </a>
+		  <a target="_blank" href="https://www.instagram.com/_stephaniien/">
+			<i class="fab fa-instagram"></i>
+		  </a>
+		</div>
+	  </section>
 </body>
 </html>
