@@ -11,7 +11,7 @@
 
 Semana de criação de portfolio com links para redes sociais .
 <br>
-Criação no Github-page.
+Criação no Github-page. <a href="https://steephanie.github.io/imersaocss/" target="_blank">Acesse aqui 😚</a>
 <br>
 
 ---
